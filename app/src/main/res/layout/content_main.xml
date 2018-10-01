@@ -19,16 +19,16 @@
         android:id="@+id/nairobi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nairobi"
+        android:text="@string/nairobi"
         android:textSize="36sp"
         android:textAllCaps="true"
         android:textStyle="bold"
         android:textColor="#F4BA05"
-        android:layout_alignParentRight="true"
         android:layout_alignParentLeft="true"
         android:paddingLeft="12dp"
-
-        />
+        android:paddingRight="12dp"
+        android:layout_alignParentStart="true"
+        android:paddingStart="12dp" />
 
     <TextView
         android:id="@+id/tagline"
@@ -37,12 +37,14 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:paddingLeft="16dp"
+        android:paddingRight="16dp"
         android:paddingBottom="16dp"
-        android:text="The heart beat of Kenya"
+        android:text="@string/the_heartbeat_of_kenya"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:textStyle="italic"
-        app:fontFamily="@font/alegreya_bold_italic" />
+        app:fontFamily="@font/alegreya_bold_italic"
+        android:layout_alignParentStart="true" />
 
 
 
